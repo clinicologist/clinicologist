@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mj3sudaelium/repositories/clinicologist/web/index_html/
+    - export DEPLOYPATH=/home/mj3sudaelium/public_html/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
