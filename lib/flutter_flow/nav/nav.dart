@@ -117,9 +117,7 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'speaker_list_pg',
           path: '/speakerListPg',
-          builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'speaker_list_pg')
-              : SpeakerListPgWidget(),
+          builder: (context, params) => SpeakerListPgWidget(),
         ),
         FFRoute(
           name: 'GCP1',

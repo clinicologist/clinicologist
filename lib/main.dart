@@ -135,9 +135,8 @@ class _NavBarPageState extends State<NavBarPage> {
   Widget build(BuildContext context) {
     final tabs = {
       'home_page': HomePageWidget(),
-      'Home12ProjectDashboard': Home12ProjectDashboardWidget(),
-      'speaker_list_pg': SpeakerListPgWidget(),
       'Profile': ProfileWidget(),
+      'Home12ProjectDashboard': Home12ProjectDashboardWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -171,26 +170,18 @@ class _NavBarPageState extends State<NavBarPage> {
             ),
             BottomNavigationBarItem(
               icon: Icon(
-                Icons.category,
-                size: 24.0,
-              ),
-              label: 'category',
-              tooltip: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
-                Icons.person_search,
-                size: 24.0,
-              ),
-              label: 'Home',
-              tooltip: '',
-            ),
-            BottomNavigationBarItem(
-              icon: Icon(
                 Icons.person,
                 size: 24.0,
               ),
               label: 'Home',
+              tooltip: '',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(
+                Icons.category,
+                size: 24.0,
+              ),
+              label: 'category',
               tooltip: '',
             )
           ],
