@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "1017215734546",
+    "project_id": "clinicologistx1",
+    "storage_bucket": "clinicologistx1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017215734546:android:86f11c6f20e51b9cecd9cb",
+        "android_client_info": {
+          "package_name": "com.mycompany.clinicologistx1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017215734546-6f6jjju7bfsakkn5l7k6sauvak2v0oa8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.clinicologistx1",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "1017215734546-9fj03n3c7be7mnvi4l3p5tpu3mnuqv4h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.clinicologistx1",
+            "certificate_hash": "014cb5d61ff3df50877ee62da4db650d78eee29f"
+          }
+        },
+        {
+          "client_id": "1017215734546-uh9m3lejth7b0qv3b2v19muh83j3tppe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2zLHtZND3aHIlFzzN9bVSuRGQAoIyvd8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017215734546-qmogn2gnqv11chqnn989tcgoloadk5va.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1017215734546-a0kg396uamc9pliriqdkmvv0arhd7ul4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.clinicologistx1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
